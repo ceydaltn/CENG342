@@ -2,4 +2,5 @@
 example include file
 */
 
-void myPrintHelloMake(void);
+
+void matrix_vector_multiplication(double **matrix, double *vector, int n, int m, double *result);
