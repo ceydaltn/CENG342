@@ -1,5 +1,6 @@
-5940.15
-8385.40
-11685.45
-10893.85
-10965.77
+Elapsed time: 0.000007 seconds for parallel mxv with 1 processes
+Elapsed time: 0.000008 seconds for parallel mxv with 2 processes
+Elapsed time: 0.000008 seconds for parallel mxv with 3 processes
+Elapsed time: 0.000008 seconds for parallel mxv with 4 processes
+Elapsed time: 0.000007 seconds for parallel mxv with 5 processes
+Elapsed time: 0.000012 seconds for parallel mxv with 6 processes

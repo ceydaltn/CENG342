@@ -1,15 +1,14 @@
-
-#include <stdio.h>
 #include <hellomake.h>
+#include <stdio.h>
+#include <stdlib.h>
 
-void matrix_vector_multiplication(double **matrix, double *vector, int n, int m, double *result) {
-  
-for (int i = 0; i < n; i++) {
+
+void matrix_vector_multiply(double *matrix, double *vector, double *result, int matrix_size) {
+    int i, j;
+    for (i = 0; i < matrix_size; i++) {
         result[i] = 0.0;
-        for (int j = 0; j < m; j++) {
-            result[i] += matrix[i][j] * vector[j];
+        for (j = 0; j < matrix_size; j++) {
+            result[i] += matrix[i * matrix_size + j] * vector[j];
         }
     }
-
-    return;
 }
