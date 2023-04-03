@@ -1,5 +1,6 @@
 //Ceyda Altın 
 //19050111061
+//In this program we parallelize our matrix-vector multiplication program by using MPI
 
 #include <hellomake.h>
 #include <stdio.h>
